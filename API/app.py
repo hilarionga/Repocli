@@ -30,8 +30,18 @@ def get_starwars_warriors():
     rows = ['Obiwan', 'el pelón del sable morado', 'Darth Vader', 'El de la colita de caballo', 'Yoda']
     return rows
 
-@app.get("/warriorsGOT")
+""" @app.get("/warriorsGOT")
 def get_warriors_got():
     rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
     return rows
+<<<<<<< HEAD
 
+=======
+ """
+
+
+@app.get("/cursosPlatzi")
+def get_cursos():    
+    cursos = ["Docker", "Bash", "Linux", "Inglés","Python" , "Javascript", "Azure", "DevOps"]    
+    return rows
+>>>>>>> tarea11
