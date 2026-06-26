@@ -35,9 +35,3 @@ def get_warriors_got():
     rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
     return rows
 
-
-
-@app.get("/cursosPlatzi")
-def get_cursos():    
-    cursos = ["Docker", "Bash", "Linux", "Inglés","Python" , "Javascript", "Azure", "DevOps"]    
-    return rows
